@@ -281,7 +281,7 @@ def settings_tab():
     # Add your settings functionality here
 
 def main():
-    st.set_page_config(page_title="JK Kitchens App")
+    st.set_page_config(page_title="JK Kitchens App", layout="wide")
     
     # Add centered header image with custom CSS for larger size
     st.markdown(
